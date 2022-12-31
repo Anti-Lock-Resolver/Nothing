@@ -196,8 +196,21 @@ pcall(function()
         Button1 = "TY!"
     })
 end)
-      local RunService = game:GetService("RunService")
 
+wait(1)
+
+pcall(function()
+    wait(0.4)
+
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "Owner";
+        Text = "Made by Security.exe#0068";
+        Duration = 6;
+        Button1 = "WOW COOL REAL"
+    })
+end)
+
+local RunService = game:GetService("RunService")
 RunService.Heartbeat:Connect(function()
     pcall(function()
         for i,v in pairs(game.Players:GetChildren()) do
