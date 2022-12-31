@@ -185,7 +185,7 @@
 
 
 
-if getgenv().antilockfucker == true then
+if getgenv().AntiLockFucker == true then
 pcall(function()
     wait(0.4)
 
