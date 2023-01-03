@@ -1,3 +1,4 @@
+if getgenv().AntiLockFucker == true then
 pcall(function()
     wait(0.4)
 
@@ -20,4 +21,6 @@ RunService.Heartbeat:Connect(function()
         end
     end)
 end)
+elseif getgenv().AntiLockFucker == false then
+    game.Players.LocalPlayer:Kick('Anti Lock Resolver turned off')
 end
