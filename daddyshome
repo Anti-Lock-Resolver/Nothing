@@ -1,17 +1,3 @@
-if getgenv().AntiLockFucker == true then
-pcall(function()
-    wait(0.4)
-
-    game.StarterGui:SetCore("SendNotification", {
-        Title = "Anti-Lock Resolver";
-        Text = "Fucked every anti-lock known to scripters, have fun";
-        Duration = 6;
-        Button1 = "TY!"
-    })
-end)
-
-wait(1)
-
 pcall(function()
     wait(0.4)
 
