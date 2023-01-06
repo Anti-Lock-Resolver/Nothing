@@ -401,7 +401,7 @@ ThemeManager:ApplyToTab(Tabs['UI Settings'])
         --
         if getgenv().valiansh == true then
                             game.StarterGui:SetCore("SendNotification", {
-                       Title = "angel.lua",
+                       Title = "Security",
                        Text = "Already Loaded!",
                        Duration = 5
  
@@ -426,7 +426,7 @@ ThemeManager:ApplyToTab(Tabs['UI Settings'])
                 end	
                    if getgenv().NotifMode then
                     game.StarterGui:SetCore("SendNotification", {
-            Title = "angel.lua";
+            Title = "Security";
             Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName);
  
         })
@@ -437,13 +437,13 @@ ThemeManager:ApplyToTab(Tabs['UI Settings'])
                 end	
             if getgenv().NotifMode then
                             game.StarterGui:SetCore("SendNotification", {
-                       Title = "angel.lua",
+                       Title = "Security",
                        Text = "Unlocked",
                        Duration = 5
                    })
                elseif getgenv().Target == false then
                             game.StarterGui:SetCore("SendNotification", {
-                       Title = "angel.lua",
+                       Title = "Security",
                        Text = "Target left or died.",
                        Duration = 5
  
